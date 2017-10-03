@@ -114,3 +114,7 @@ yarn.lock
 
 # generated files
 app/static/bundle.js
+
+# local configuration
+app/config.py
+

@@ -1,3 +1,8 @@
+Requirements
+
+* python 2.7
+* virtualenv
+
 Activate Python virtualenv
 
 virtualenv .venv
@@ -12,17 +17,13 @@ pip install -r requirements.txt
 
 Activate Node.js virtualenv
 
-nodeenv .nodeenv
+nodeenv .nenv
 
-source .node_env/bin/activate
+source .nenv/bin/activate
 
 install node requirements
 
 npm install -g yarn
-
-yarn add --dev webpack babel-core babel-loader babel-preset-react babel-preset-es2015 node-sass css-loader sass-loader style-loader
-
-yarn add react react-dom
 
 yarn install
 
